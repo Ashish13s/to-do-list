@@ -1,11 +1,11 @@
 body {
-    background-color: #49B749;
+    background-color: #bde0fe;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 .todo-wrapper {
-    margin-top: 50px;
-    background-color: #fff;
+    margin-top: 15px;
+    background-color: #a2d2ff;
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -30,28 +30,28 @@ body {
 .todo-wrapper ol li {
     margin: 5px 0;
     padding: 3px;
-    -webkit-user-select: none;
+    /* -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     -webkit-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; */
 }
 
 .todo-wrapper ol li:nth-child(even) {
-    background: #ddd;
+    background: #caf0f8;
 }
 
 .todo-wrapper .completed {
     text-decoration: line-through;
-    color: #666;
+    color: green;
 }
 
 .todo-wrapper .pretty-button {
     margin: 10px 2px;
     padding: 5px 20px;
     border-radius: 15px;
-    background-color: #0093D5;
+    background-color: #3a86ff;
     border: none;
     color: #fff;
     text-align: center;
@@ -80,15 +80,15 @@ body {
 }
 
 .todo-wrapper #clear-button {
-    background-color: #49B749;
+    background-color: #3a86ff;
 }
 
 .todo-wrapper #empty-button {
-    background-color: #9B1C20;
+    background-color: #ef233c;
 }
 
 .todo-wrapper #save-button {
-    background-color: #49B749;
+    background-color: #8338ec;
 }
 
 @media only screen and (min-width: 1400px) {
