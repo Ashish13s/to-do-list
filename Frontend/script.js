@@ -87,26 +87,3 @@ function loadList() {
 }
 
 loadList();
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
